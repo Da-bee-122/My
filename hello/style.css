@@ -1,0 +1,99 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    background-color: #000000;
+    color: #00ff00;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #008000;
+    color: black;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+nav ul:hover
+{
+    box-shadow: none;
+    letter-spacing: 1px;
+    transform: translate(1px, 1px);
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #33ff33;
+}
+
+/* Hacker Console Effect */
+.hacker-text {
+    font-size: 24px;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #33ff33;
+}
+
+/* Hacker Box */
+.hacker-box {
+    background-color: black;
+    border: 2px solid #00ff00;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #00ff00;
+}
+
+/* Footer */
+footer {
+    background: #008000;
+    color: black;
+    padding: 15px;
+    margin-top: 20px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 1px; /* ចន្លោះពី logo និង title */
+}
+
+.logo {
+    width: 5px;
+    height: auto;
+    align-items: center;
+    gap: 1px;
+}
+.submit {
+    align-items: center;
+}
+h1{
+    
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
